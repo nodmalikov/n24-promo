@@ -306,6 +306,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .flex-article-wrapper {
     display: flex;
+    align-items: flex-start;
 }
 
 /* FLEX-LEFT-WRAPPER */
@@ -315,13 +316,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .flex-article-list {
+    width: 797px;
+    margin-right: 10px;
     margin-bottom: 17px;
 }
 
 .flex-article-item {
-    width: 797px;
     padding: 20px 20px 20px 17px;
-    margin-right: 10px;
     display: flex;
     align-items: flex-start;
     background-color: #f6f6f6;
