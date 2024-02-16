@@ -150,7 +150,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #f6f6f6;
-    margin-bottom: 10px;
 }
 
 .header-top-container {
@@ -160,7 +159,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* SITENAV */
 .sitenav {
-    padding-top: 12px;
+    padding-top: 22px;
     padding-bottom: 12px;
     border-bottom: 1px solid #d1d1d1;
     margin-bottom: 40px;
