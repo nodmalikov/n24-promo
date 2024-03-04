@@ -265,6 +265,7 @@ img {
     height: 128px;
     border-radius: 8px;
     object-fit: cover;
+    display: block;
 }
 
 aside {
@@ -597,4 +598,14 @@ only screen and (                min-resolution: 2dppx) {
   .notice-on {
     background-image: url("../img/notice-bg-img@2x.jpg");
   }
+}
+
+
+/* LIST-PAGE */
+.list-container {
+    margin-bottom: 50px;
+}
+
+.list-ad-img {
+    height: 553px;
 }
