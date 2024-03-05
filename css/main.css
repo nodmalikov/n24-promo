@@ -625,8 +625,11 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .form-field {
-    display: block;
     width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 18px 20px;
     border-radius: 10px;
@@ -671,13 +674,13 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 24px;
+    line-height: 28px;
     color: #000;
 }
 
 /* CONTACT-INFORMATION */
 .contact-information {
     width: 494px;
-
 }
 
 .contact-information-list {
@@ -694,7 +697,6 @@ only screen and (                min-resolution: 2dppx) {
     border-bottom: 1px solid #d2d2d2;
     margin-bottom: 20px;
 }
-
 
 .contact-information-title {
     margin-bottom: 7px;
