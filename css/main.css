@@ -685,37 +685,30 @@ only screen and (                min-resolution: 2dppx) {
     padding: 40px 25px;
     border-radius: 10px;
     background-color: #f6f6f6;
+    color: #000
 
 }
 
 .contact-information-item:not(:last-child) {
     padding-bottom: 20px;
     border-bottom: 1px solid #d2d2d2;
-}
-
-.contact-information-item:not(:last-child) {
     margin-bottom: 20px;
 }
 
-.contact-information-link,
-.contact-information-title {
-    color: #000;
-}
 
 .contact-information-title {
     margin-bottom: 7px;
     font-weight: 500;
     font-size: 20px;
+    line-height: 24px;
     display: block;
 }
 
-.contact-information-link {
+.contact-information-subtitle {
+    margin: auto;
     font-weight: 400;
     font-size: 16px;
+    line-height: 19px;
     display: inline-block;
     cursor: pointer;
-}
-
-.contact-information-link:hover {
-    color: #2959ce;
 }
