@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N24</title>
+
+    <!-- GOOGLE-FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS-LINKS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- SITE-HEADER -->
+    <header class="header">
+        <div class="header-top">
+            <div class="header-top-container container">
+
+                <!-- HEADER-LOGO -->
+                <a href="index.html" class="header-logo-link">
+                    <img class="header-logo-img" src="img/header-logo.svg" alt="Site logo" width="264" height="28">
+                </a>
+
+                <!-- CURRENCY-RATES -->
+                <ul class="valute-list">
+                    <li class="valute-item">
+                        <b class="valute-emersion">$</b>
+                        <span class="valute-value">10137.2</span>
+                    </li>
+                    <li class="valute-item">
+                        <b class="valute-emersion">P</b>
+                        <span class="valute-value">138.26</span>
+                    </li>
+                </ul>
+
+                <!-- GLOBAL-SEARCH-FORM -->
+                <form class="global-search-form" action="https://echo.htmlacademy.ru">
+                    <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
+                </form>
+
+                <!-- LANGUAGE-TOGGLE -->
+                <div class="lang-toggle">
+                    <a href="index.html" class="lang-toggle-link lang-toggle-link-active">УЗ</a>
+                    <a href="index.html/ru" class="lang-toggle-link">РУ</a>
+                </div>
+
+                <!-- SITE-LOGIN-BUTTON -->
+                <a class="button button-primary" href="#">Войти</a>
+            </div>
+        </div>
+        <div class="container">
+
+            <!-- SITENAV -->
+            <nav class="sitenav">
+                <ul class="sitenav-list">
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Главное</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Интересное</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Экономика</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Политика</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Общество</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Технологии</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Спорт</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Культура</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Происшествия</a>
+                    </li>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Наука</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SITE-MAIN -->
+    <main class="main">
+        <!-- CONTACT-PAGE -->
+        <div class="container">
+
+            <div class="contact-page">
+                <h1 class="contact-page-heading">Напишите нам</h1>
+                <div class="contact-page-content">
+
+                    <!-- CONTACT-FORM -->
+                    <form class="contact-page-form form" action="https://echo.htmlacademy.ru" method="POST">
+
+                        <div class="contact-form-wrapper">
+                            <div class="form-groups-wrapper">
+                                <div class="form-group">
+                                    <input class="form-field" type="text" name="name" placeholder="Имя" aria-label="Имя" required>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-field" type="tel" name="phone-number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-field" type="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-field form-field-textare" name="message" aria-label="Текст" placeholder="Текст" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-button-wrapper">
+                            <button class="button button-primary" type="submit">Отправить</button>
+                        </div>
+
+                    </form>
+
+                    <!-- CONTACT-INFORMATION -->
+                    <div class="contact-information">
+                        <ul class="contact-information-list">
+                            <li class="contact-information-item">
+                                <strong class="contact-information-title">Электронная почта</strong>
+                                <a class="contact-information-link" href="#">info@namanganliklar24.uz</a>
+                            </li>
+
+                            <li class="contact-information-item">
+                                <strong class="contact-information-title">Номер телефона</strong>
+                                <a class="contact-information-link" href="#">+998 88 522-54-76</a>
+                            </li>
+
+                            <li class="contact-information-item">
+                                <strong class="contact-information-title">Адрес</strong>
+                                <a class="contact-information-link" href="#">Ташкент, площадь Мустакиллик, 6</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SITE-FOOTER -->
+    <footer class="footer">
+        <div class="container">
+
+            <!-- FOOTER-LOGO -->
+            <a class="footer-logo-link" href="index.html">
+                <img class="footer-logo-img" src="img/footer-logo.svg" alt="Footer logo" width="264" height="28">
+            </a>
+
+            <!-- FOOTER-LINKS -->
+            <div class="footer-links">
+                <div class="footer-links-description">
+                    Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции
+                </div>
+
+                <div class="footer-links-lists">
+                    <ul class="footer-links-list">
+                        <li class="footer-links-item">
+                            <a class="footer-links-link" href="#">Информация о сайте</a>
+                        </li>
+                        <li class="footer-links-item">
+                            <a class="footer-links-link" href="#">Напишите нам</a>
+                        </li>
+                        <li class="footer-links-item">
+                            <a class="footer-links-link" href="#">Реклама</a>
+                        </li>
+                        <li class="footer-top-text footer-top-text-last">
+                            <a class="footer-links-link" href="#">Прислать новость</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-links-list">
+                        <li class="footer-links-item">
+                            <a class="footer-links-link" href="#">Использование материалов</a>
+                        </li>
+                        <li class="footer-links-item">
+                            <a class="footer-links-link" href="#">Темы дня</a>
+                        </li>
+                        <li class="footer-links-item">
+                            <a class="footer-links-link" href="#">Наша команда</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            <hr class="footer-line">
+
+            <!-- FOOTER-SOCIAL -->
+            <div class="footer-social">
+                <h2 class="footer-social-heading">Наши<br> социальные сети</h2>
+                <ul class="footer-social-list">
+                    <li class="footer-social-item">
+                        <a href="#" class="footer-social-link">
+                            <img class="footer-social-img" src="img/facebook-icon.svg" alt="Facebook icon" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#" class="footer-social-link">
+                            <img class="footer-social-img" src="img/instagram-icon.svg" alt="Instagram icon" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#" class="footer-social-link">
+                            <img class="footer-social-img" src="img/telegram-icon.svg" alt="Telegram icon" width="25" height="25">
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="#" class="footer-social-link">
+                            <img class="footer-social-img" src="img/youtube-icon.svg" alt="Youtube icon" width="25" height="25">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
