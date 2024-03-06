@@ -160,6 +160,11 @@ img {
     opacity: 0.6;
 }
 
+.header-logo-img {
+    width: 264px;
+    height: 28px;
+}
+
 /* HEADER-VALUTE */
 .valute-list {
     padding: 0;
