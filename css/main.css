@@ -51,7 +51,7 @@ img {
 
 *:focus {
     outline: 2px dashed #7296ee;
-    outline-offset: 3px;
+    outline-offset: 2px;
 }
 
 /* BUTTON */
